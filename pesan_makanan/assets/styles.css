@@ -1,0 +1,65 @@
+/* Navbar */
+.navbar.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Higher z-index to ensure it's on top of other content */
+  background-color: #ff0000; /* Example red color */
+  padding-top: 15px; /* Added padding for height */
+  padding-bottom: 15px; /* Added padding for height */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Carousel Caption */
+.carousel-caption.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* About Us Section */
+#tentang-kami img {
+  border-radius: 5px;
+}
+
+#tentang-kami p {
+  text-align: justify;
+}
+
+/* Container */
+.container {
+  margin-top: 50px;
+}
+
+/* List Unstyled */
+.list-unstyled {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-unstyled li {
+  margin-right: 20px; /* Adjusted margin for better spacing */
+}
+
+.list-unstyled li:last-child {
+  margin-right: 0; /* No margin for the last item */
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+}
+
+.list-unstyled li a i {
+  font-size: 30px; /* Icon size */
+  color: white; /* Icon color */
+}
+
+/* Logo */
+.logo {
+  margin-right: 0; /* Remove margin-right for logo */
+}
